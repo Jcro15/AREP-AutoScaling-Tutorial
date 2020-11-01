@@ -4,9 +4,24 @@
 * [Maven](https://maven.apache.org/) - Administrador de dependencias
 * [Git](https://git-scm.com/) - Sistema de control de versiones
 * [Node-npm](https://nodejs.org/es/download/) -  Javascript build - Package Manager
+## Contexto
+En matemáticas, la sucesión o serie de Fibonacci es la siguiente sucesión infinita de números naturales:
 
+0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597......
+
+La sucesión empieza con 0 y 1 y todos los términos siguientes se calculan a partir de la suma de sus 2 valores anteriores.
+Esta sucesión fue descrita en Europa por Leonardo de Pisa, matemático italiano del siglo XIII también conocido como Fibonacci.
+Tiene numerosas aplicaciones en ciencias de la computación, matemática y teoría de juegos. También aparece en configuraciones
+biológicas, como por ejemplo en las ramas de los árboles, en la disposición de las hojas en el tallo, etc.
+  
+Actualmente un equipo de investigadores se encuentra buscando nuevas aplicaciones para los números de fibonacci 
+por lo que necesitarán consultar la secuencia en posiciones cercanas a 1000000, se requiere una aplicación que
+les permita calcular los valores de esta sucesión, esta solución debe ser capaz de responder a múltiples peticiones concurrentes
+y debe contar con alta disponibilidad para que los investigadores puedan consultar el servicio en el momento que lo necesiten.
+Es importante que la infraestructura utilizada sea capaz de escalar automáticamente, puesto que solo se deben utilizar instancias
+adicionales cuando la carga de la aplicación lo requiera, esto con el objetivo de disminuir el costo de mantener la solución.
+  
 ## Tutorial
-
 1. Clone el repositorio utilizando el siguiente comando
     ```
     git clone https://github.com/Jcro15/AREP-AutoScaling-Tutorial.git
